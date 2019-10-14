@@ -1,4 +1,4 @@
-export const userLoginTestCase = {
+export const login = {
   query: ` query{
     login(input:
     {
