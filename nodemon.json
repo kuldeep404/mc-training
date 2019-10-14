@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "watch": ["dist/**/*.js", "src/**/*.graphql", "dist/**/*.graphql", "src/**/*.js"],
+  "runOnChangeOnly": false,
+  "ext": "js json graphql"
+}

@@ -1,0 +1,25 @@
+[31m2019-09-19T14:43:51.208Z :   error:  error finding user with id: 59c134d3c8efb4001a2bf1ad :    [39m
+[31m2019-09-19T16:14:29.901Z :   error:  error finding user with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:15:15.370Z :   error:  error finding product with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:15:39.689Z :   error:  error finding product with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:16:07.914Z :   error:  error finding product with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:16:18.931Z :   error:  error finding product with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:21:33.589Z :   error:  error finding product with id: 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-19T16:22:04.547Z :   error:  Parameter "filter" to findOne() must be an object, got 5d7636b6caf2fe001b0841c6 :    [39m
+[31m2019-09-20T08:05:17.716Z :   error:  error finding product with id: 5bcecf2414a4c7000f8d38c3Cannot read property 'ownerId' of null :    [39m
+[31m2019-09-20T16:08:45.605Z :   error:  error finding product with id: 5baa2c2a5b357f000f496decCannot read property 'ownerId' of null :    [39m
+[31m2019-09-20T16:10:46.746Z :   error:  error finding product with id: 5baa2c2a5b357f000f496decselectedProdcut is not defined :    [39m
+[31m2019-09-20T16:11:41.789Z :   error:  error finding product with id: 5baa2c2a5b357f000f496decCannot read property 'ownerId' of null :    [39m
+[31m2019-09-20T16:38:11.555Z :   error:  error finding product with id: 5b6428f4b08778000f2de371Cannot read property 'ownerId' of null :    [39m
+[31m2019-09-21T21:57:05.621Z :   error:  error finding product with id: 5b6428f4b08778000f2de371Cannot read property 'ownerId' of null :    [39m
+[31m2019-09-23T10:57:09.785Z :   error:  error finding order with id: 5d88a0974af645fcd3cf36e9 :    [39m
+[31m2019-09-23T10:57:43.121Z :   error:  error finding order with id: 5d88a51dba7331fe6f6d5800 :    [39m
+[31m2019-09-23T10:57:45.403Z :   error:  error finding order with id: 5d88a51dba7331fe6f6d5800 :    [39m
+[31m2019-09-23T10:58:20.080Z :   error:  error finding order with id: 5d88a51dba7331fe6f6d5800 :    [39m
+[31m2019-09-23T11:02:34.801Z :   error:  error finding order with id: 5d88a51dba7331fe6f6d5800--err--TypeError: _repositories.Order.load(...).lean is not a function :    [39m
+[31m2019-09-24T11:58:49.038Z :   error:  error finding product with id: 5b6428f4b08778000f2de371Cannot read property 'ownerId' of null :    [39m
+[31m2019-09-24T12:03:42.047Z :   error:  error finding product with id: 5d8a060eaab6036c4f359033Cannot read property 'ownerId' of null :    [39m
+[31m2019-09-24T12:15:08.092Z :   error:  error finding product with id: 5d8a08bebec4ca6d9afa8d5eCannot read property 'ownerId' of null :    [39m
+[31m2019-09-24T12:17:13.160Z :   error:  error finding product with id: 5d8a08bebec4ca6d9afa8d5eProduct is not defined :    [39m
+[31m2019-09-24T12:20:42.296Z :   error:  error finding product with id: 5d8a08bebec4ca6d9afa8d5eProduct is not defined :    [39m
+[31m2019-09-26T22:27:05.675Z :   error:  error while starting---listen EADDRINUSE: address already in use :::3000 :    [39m

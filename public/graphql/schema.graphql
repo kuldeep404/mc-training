@@ -1,0 +1,9 @@
+type Query {
+  getUser(userId: ID!): User
+  getProductsByOwner(userId: ID!): [Product]!
+  getProduct(productId: ID!): Product
+}
+
+type Mutation {
+  saveProduct(product: ProductInput!): String!
+}

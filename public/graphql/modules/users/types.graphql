@@ -1,0 +1,29 @@
+type User {
+  id: String!
+  email: UserEmail!
+  shopId: String!
+  firstName: String!
+  lastName: String!
+  brandName: String
+  location: String
+  roles: UserRole!
+}
+
+type UserRole {
+  name: String!
+}
+# enum UserEnum {
+#   Provider: provider
+#   Operator: operator
+#   Fulfiller: fullfiller
+#   Sourcer: sourcer
+# }
+
+# type UserRole {
+#   name: UserEnum
+# }
+
+type UserEmail {
+  address: String
+  verified: Boolean
+}

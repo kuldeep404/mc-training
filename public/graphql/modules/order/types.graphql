@@ -1,0 +1,13 @@
+# input OrderInput {
+#   sellerId: String!
+#   shop: String!
+#   shopifyOrderId: String!
+#   orderNumber: String! 
+# }
+
+# type Order {
+#   sellerId: String!
+#   shop: String!
+#   shopifyOrderId: String!
+#   orderNumber: String!
+# }

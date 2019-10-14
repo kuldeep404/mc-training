@@ -1,0 +1,59 @@
+{
+  "name": "mc-gql",
+  "version": "1.0.0",
+  "description": "",
+  "author": "mc",
+  "main": "api/index.js",
+  "keywords": [
+    "graphql"
+  ],
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "prebuild": "rm -rf public/",
+    "build": "babel src -d public --copy-files",
+    "build:watch": "npm run build -- --watch",
+    "start": "nodemon api/index.js",
+    "test": "jest 'test/user/userLogin.test.js'",
+    "start:local": "nodemon index.js",
+    "start:build": "nodemon public/index.js",
+    "startup": "node ./public/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.3",
+    "apollo-server-express": "^2.1.0",
+    "app-root-path": "^2.2.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "helmet": "^3.14.0",
+    "jest": "^24.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.4",
+    "morgan-body": "^2.4.5",
+    "sinon": "^7.5.0",
+    "socket.io-client": "^2.3.0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.6.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "nodemon": "^1.18.7"
+  }
+}

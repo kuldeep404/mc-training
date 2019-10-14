@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/index.js", "use": "@now/node-server" }],
+  "routes": [{ "src": "/.*", "dest": "api/index.js" }],
+  "env": {
+    "PORT": "5000",
+    "PLAYGROUND": "true",
+    "INTROSPECT": "true",
+    "MONGO_URL":"mongodb://root:68ZDXCyBhtNeduMS@104.197.214.154:27017/test-marketcube?authSource=admin&readPreference=primary"
+  }
+}
